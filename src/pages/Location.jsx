@@ -17,13 +17,13 @@ const Location = () => {
                 <picture className="">
                     <source
                     media="(min-width: 1024px)"
-                    srcSet="src\assets\desktop\image-map@2x.png"
+                    srcSet="./src/assets/desktop/image-map@2x.png"
                     />
                     <source
                     media="(min-width: 768px)"
-                    srcSet="src\assets\tablet\image-map@2x.png"
+                    srcSet="./src/assets/tablet/image-map@2x.png"
                     />
-                    <img src="src\assets\mobile\image-map@2x.png" alt="map" className="w-full"/>
+                    <img src="./src/assets/mobile/image-map@2x.png" alt="map" className="w-full"/>
                 </picture>
             </header>
         

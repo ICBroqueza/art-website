@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../components/Button'
 import Footer from '../components/Footer'
+// import {HeaderImage}
 // import Slide from 'react-reveal/Slide';
 // import Fade from 'react-reveal/Fade';
 
@@ -12,15 +13,15 @@ const Home = () => {
                     <picture className="bg-[#151515] xl:pl-[32%] lg:pl-[28%]  xl:h-[700px]">
                         <source
                         media="(min-width: 1024px)"
-                        srcSet="src\assets\desktop\image-hero@2x.jpg"
+                        srcSet="./src/assets/desktop/image-hero@2x.jpg"
                         >
                         </source>
                         <source
                         media="(min-width: 640px)"
-                        srcSet="src\assets\tablet\image-hero@2x.jpg"
+                        srcSet="./src/assets/tablet/image-hero@2x.jpg"
                         >
                         </source>
-                        <img className="md:max-h-[700px] lg:h-full lg:w-full" src="src\assets\mobile\image-hero@2x.jpg" alt=""></img>
+                        <img className="md:max-h-[700px] lg:h-full lg:w-full" src="./src/assets/mobile/image-hero@2x.jpg" alt=""></img>
                     </picture>
                 {/* </Slide> */}
                 <div className="px-[16px] lg:flex lg:left-40 lg:place-items-start md:absolute md:left-96">
@@ -43,13 +44,13 @@ const Home = () => {
                     <picture className="w-full md:order-2">
                         <source
                         media="(min-width: 1024px)"
-                        srcSet="src\assets\desktop\image-grid-1@2x.jpg"
+                        srcSet="./src/assets/desktop/image-grid-1@2x.jpg"
                         />
                         <source
                         media="(min-width: 640px)"
-                        srcSet="src\assets\tablet\image-grid-1@2x.jpg"
+                        srcSet="./src/assets/tablet/image-grid-1@2x.jpg"
                         />
-                        <img className="md:h-[400px] md:w-[400px] lg:w-full object-cover" src="src\assets\mobile\image-grid-1@2x.jpg" alt=""/>
+                        <img className="md:h-[400px] md:w-[400px] lg:w-full object-cover" src="./src/assets/mobile/image-grid-1@2x.jpg" alt=""/>
                     </picture>
                     <div className="md:pr-[70px] md:w-4/5 lg:2/5">
                         <h1 className="text-[50px] leading-[48px] my-[32px] md:my-0 font-black text-heading uppercase">Your Day at the Gallery</h1>
@@ -61,26 +62,26 @@ const Home = () => {
                     <picture>
                         <source
                         media="(min-width: 1024px)"
-                        srcSet="src\assets\desktop\image-grid-2@2x.jpg"
+                        srcSet="./src/assets/mobile/image-grid-2@2x.jpg"
                         />
                         <source
                         media="(min-width: 640px)"
-                        srcSet="src\assets\tablet\image-grid-2@2x.jpg"
+                        srcSet="./src/assets/tablet/image-grid-2@2x.jpg"
                         />
-                        <img className="h-full w-full" src="src\assets\mobile\image-grid-2@2x.jpg" alt=""/>
+                        <img className="h-full w-full" src="./src/assets/mobile/image-grid-2@2x.jpg" alt=""/>
                     </picture>
                 </div>
                 <div className="flex flex-col gap-4">
                     <picture className="">
                         <source
                         media="(min-width: 1024px)"
-                        srcSet="src\assets\desktop\image-grid-3@2x.jpg"
+                        srcSet="./src/assets/desktop/image-grid-3@2x.jpg"
                         />
                         <source
                         media="(min-width: 640px)"
-                        srcSet="src\assets\tablet\image-grid-3@2x.jpg"
+                        srcSet="./src/assets/tablet/image-grid-3@2x.jpg"
                         />
-                        <img className="h-full w-full" src="src\assets\mobile\image-grid-3@2x.jpg" alt=""/>
+                        <img className="h-full w-full" src="./src/assets/mobile/image-grid-3@2x.jpg" alt=""/>
                     </picture>
                     <div className="bg-[#151515] text-white px-[24px] md:px-[40px] py-[40px] h-full w-full flex flex-col justify-center">
                         <h1 className="text-[50px] leading-[48px] font-black text-heading my-[28px] uppercase">COME & BE INSPIRED</h1>
